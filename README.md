@@ -1,28 +1,29 @@
-# Prepnest Documentation
+# Prepnest
 
-**Educational content platform for exam preparation**
+> Educational content platform for WASSCE/BECE exam preparation.
 
-[![Case Study](https://img.shields.io/badge/case%20study-portfolio-blue)](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md)
+[![Case Study](https://img.shields.io/badge/case%20study-read-blue)](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md)
 [![Sanity Starter](https://img.shields.io/badge/starter-sanity--education-green)](https://github.com/iamnortey/sanity-education-starter)
+[![Portfolio](https://img.shields.io/badge/portfolio-iamnortey-green)](https://github.com/iamnortey/portfolio)
 
 ---
 
-## Overview
+## What It Does
 
-Prepnest is a structured content platform for WASSCE/BECE exam preparation, built with a schema-first approach to educational content modeling.
+Prepnest is a structured content platform for exam preparation, built with a schema-first approach to educational content modeling.
 
-### The Problem
-
-- Study materials scattered across sources
-- No structured curriculum navigation
-- Passive learning (static PDFs)
-- Math concepts hard to visualize
-
-### The Solution
-
-**Structured content pipeline:** Subject → Topic → Lesson → Question
+**Content pipeline:** Subject → Topic → Lesson → Question
 
 Hierarchical content organization with animated explanations and search-driven discovery.
+
+---
+
+## The Problem
+
+- Study materials scattered across sources with no structure
+- No curriculum-aligned navigation
+- Passive learning (static PDFs)
+- Math and science concepts hard to visualize
 
 ---
 
@@ -30,11 +31,11 @@ Hierarchical content organization with animated explanations and search-driven d
 
 | Layer | Technology |
 |-------|------------|
-| CMS | Sanity |
-| Mobile | React Native, Expo |
-| Web | Next.js |
-| Search | Typesense |
-| Animation | Manim |
+| **CMS** | Sanity |
+| **Mobile** | React Native, Expo |
+| **Web** | Next.js |
+| **Search** | Typesense |
+| **Animation** | Manim |
 
 ---
 
@@ -47,7 +48,7 @@ Subject
         └── Question
 ```
 
-Schema-first design ensures consistent content structure.
+Schema-first design ensures consistent content structure across all subjects and topics.
 
 ---
 
@@ -56,34 +57,24 @@ Schema-first design ensures consistent content structure.
 | Document | Description |
 |----------|-------------|
 | [Architecture](./ARCHITECTURE.md) | System design |
-| [Case Study](./CASE_STUDY.md) | Project overview |
+| [Case Study](./CASE_STUDY.md) | Full project overview |
 
 ---
 
 ## Open Source Component
 
-The [sanity-education-starter](https://github.com/iamnortey/sanity-education-starter) demonstrates the schema patterns used.
+The [sanity-education-starter](https://github.com/iamnortey/sanity-education-starter) demonstrates the schema patterns used in Prepnest — available as a standalone starter for any educational content project.
 
 ---
 
-## Metrics
+## Access
 
-| Metric | Value |
-|--------|-------|
-| Animation templates | 533K+ lines Python |
-| Content schema | Defined |
-
----
-
-## Repo Access Note
-
-The core implementation is in **private repositories**.
-
-This repository contains architecture and design documentation.
+The core implementation is in **private repositories**. This repository contains architecture and design documentation.
 
 ---
 
 ## Related
 
-- [Portfolio](https://github.com/iamnortey/portfolio)
-- [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter)
+- [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter) — open-source schema
+- [Portfolio](https://github.com/iamnortey/portfolio) — all case studies and architecture samples
+- [Case Study](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md) — full project deep-dive
