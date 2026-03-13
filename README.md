@@ -56,8 +56,7 @@ Schema-first design ensures consistent content structure across all subjects and
 
 | Document | Description |
 |----------|-------------|
-| [Architecture](./ARCHITECTURE.md) | System design |
-| [Case Study](./CASE_STUDY.md) | Full project overview |
+| [Case Study](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md) | Full project overview |
 
 ---
 
