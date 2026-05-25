@@ -8,7 +8,7 @@
 
 ---
 
-## What It Does
+## What it does
 
 Prepnest is a structured content platform for exam preparation, built with a schema-first approach to educational content modeling.
 
@@ -18,7 +18,7 @@ Hierarchical content organization with animated explanations and search-driven d
 
 ---
 
-## The Problem
+## The problem
 
 - Study materials scattered across sources with no structure
 - No curriculum-aligned navigation
@@ -39,7 +39,7 @@ Hierarchical content organization with animated explanations and search-driven d
 
 ---
 
-## Content Model
+## Content model
 
 ```
 Subject
@@ -60,20 +60,29 @@ Schema-first design ensures consistent content structure across all subjects and
 
 ---
 
-## Open Source Component
+## Open source component
 
 The [sanity-education-starter](https://github.com/iamnortey/sanity-education-starter) demonstrates the schema patterns used in Prepnest — available as a standalone starter for any educational content project.
 
 ---
 
-## Access
+## Relationship to Ghana Education Data OS
 
-The core implementation is in **private repositories**. This repository contains architecture and design documentation.
+Prepnest's schema-first approach to Ghanaian curriculum content feeds into the broader **Ghana Education Data OS (GEDOS)** initiative, which builds a governed control plane for Ghana curriculum and exam intelligence. GEDOS is developed in the [`ninobyte-labs`](https://github.com/ninobyte-labs) organization (private product repos; public org profile).
+
+---
+
+## What's public vs private
+
+This repository contains architecture and design documentation for the Prepnest content model. The core implementation (mobile app, Sanity studio configuration, content library) lives in private repositories.
+
+For partnership or technical conversations, reach out via [LinkedIn](https://linkedin.com/in/inortey/).
 
 ---
 
 ## Related
 
-- [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter) — open-source schema
+- [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter) — open-source schema starter
+- [`ninobyte-labs`](https://github.com/ninobyte-labs) — sibling Ninobyte org running the GEDOS work
 - [Portfolio](https://github.com/iamnortey/portfolio) — all case studies and architecture samples
 - [Case Study](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md) — full project deep-dive
