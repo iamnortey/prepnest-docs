@@ -67,7 +67,7 @@ flowchart TB
 | **Animation** | Manim (private production studio) |
 | **Quality** | TypeScript, smoke-script suite pinning copy, layout, and governance behavior |
 
-> Earlier prototypes used a Sanity CMS + hosted-search architecture. That generation is retired; the open-sourced schema from it lives on as [sanity-education-starter](https://github.com/iamnortey/sanity-education-starter).
+> Earlier prototypes used a Sanity CMS + hosted-search architecture. That generation is retired; its open-sourced schema is preserved as the archived [sanity-education-starter](https://github.com/iamnortey/sanity-education-starter).
 
 ---
 
@@ -81,4 +81,4 @@ The Prepnest application and content pipeline are in **private repositories** �
 
 - [Case study](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md) — problem, architecture, and engineering decisions
 - [Portfolio](https://github.com/iamnortey/portfolio) — all case studies, ADRs, and runbooks
-- [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter) — open-source schema from Prepnest's earlier architecture generation
+- [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter) — archived open-source schema from Prepnest's earlier architecture generation
