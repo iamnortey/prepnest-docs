@@ -1,4 +1,12 @@
-# Prepnest
+# Prepnest projects
+
+**Prepnest Library** is the teacher-resource discovery and preparation product currently in protected review. Read its [current project summary](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest-library.md).
+
+The architecture below describes the **separate, pre-release Prepnest mobile study project**. It is not the architecture or release status of Prepnest Library.
+
+---
+
+# Prepnest mobile study project
 
 > Offline-first WASSCE Study OS for Ghana — architecture and design documentation.
 
@@ -88,3 +96,4 @@ The Prepnest application and content pipeline are in **private repositories** �
 - [Case study](https://github.com/iamnortey/portfolio/blob/main/case-studies/prepnest.md) — problem, architecture, and engineering decisions
 - [Portfolio](https://github.com/iamnortey/portfolio) — all case studies, ADRs, and runbooks
 - [Sanity Education Starter](https://github.com/iamnortey/sanity-education-starter) — archived open-source schema from Prepnest's earlier architecture generation
+
